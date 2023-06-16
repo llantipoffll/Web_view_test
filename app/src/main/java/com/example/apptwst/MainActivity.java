@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         WebView webView = findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://rutube.ru/channel/26183144/");
+        webView.loadUrl("https://rutube.ru/");
 
         WebViewClient webViewClient = new WebViewClient() {
             @SuppressWarnings("deprecation") @Override
